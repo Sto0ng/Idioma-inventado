@@ -1,0 +1,32 @@
+{
+  "name": "platzon",
+  "version": "0.1.0",
+  "description": "Traductor del idioma inventado",
+  "main": "dist/src/platzon.js",
+  "scripts": {
+    "build": "babel src/platzon.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sto0ng/Idioma-inventado.git"
+  },
+  "keywords": [
+    "Idioma",
+    "invetando",
+    "javascript",
+    "fundametos",
+    "js"
+  ],
+  "author": "Pablo Reynoso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sto0ng/Idioma-inventado/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
